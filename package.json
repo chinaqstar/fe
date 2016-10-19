@@ -1,0 +1,27 @@
+{
+  "name": "fe",
+  "version": "0.0.1",
+  "description": "Compiler for single file fe",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "async": "^1.4.2",
+    "babel": "^6.5.2",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "memory-fs": "^0.3.0",
+    "parse5": "^2.2.2",
+    "small2": "^0.1.5",
+    "through": "^2.3.8",
+    "yamljs": "^0.2.8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
